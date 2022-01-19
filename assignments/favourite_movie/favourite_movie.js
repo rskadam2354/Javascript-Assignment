@@ -4,12 +4,12 @@ function favouriteMovie(operation, movie) {
     // Write your code hereW
     if (operation==="add")
     {
-        movies.push(movie)
+        movies.push(movie);
     }
     else{
-        movies.pop()
+        movies.pop();
     }
-    return movies
+    return movies;
 }
 
 module.exports = favouriteMovie;
