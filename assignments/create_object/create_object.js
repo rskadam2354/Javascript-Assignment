@@ -4,8 +4,8 @@ function CreateObject(arr) {
     var index=1
     for(var i=0;i<arr.length-1;i=i+2)
     {
-        object[arr[i]]=arr[index]
-        index=index+2
+        object[arr[i]]=arr[index];
+        index=index+2;
     }
     return object
 }
